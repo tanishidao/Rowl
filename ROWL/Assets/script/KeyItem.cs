@@ -5,6 +5,7 @@ using UnityEngine;
 public class KeyItem : MonoBehaviour
 {
     public Dialogue Dialogue;
+    public GameObject Particle;
 
     public GameFlagDefine.GameFlag GameFlag;
     private void OnTriggerEnter(Collider other)
@@ -19,6 +20,7 @@ public class KeyItem : MonoBehaviour
 
         }
         Dialogue.DisplayDialogue("got an EntranceKey!");
+        Particle.SetActive(false);
     }
 
 }
