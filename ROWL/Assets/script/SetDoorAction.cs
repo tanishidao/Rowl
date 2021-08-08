@@ -64,6 +64,7 @@ public class SetDoorAction : MonoBehaviour
             isOpen = true;
             animator.SetBool("IsOpen", isOpen);
             Debug.Log("IsOpen");
+            SoundManager.Instance.PlaySESound("OpenDoor");
         }
     }
     private void OnTriggerExit(Collider other)
@@ -86,6 +87,7 @@ public class SetDoorAction : MonoBehaviour
             isOpen = false;
             animator.SetBool("IsOpen", isOpen);
             Debug.Log("IsOpen‚Ó‚Ÿ‚é‚·");
+            SoundManager.Instance.PlaySESound("NotOperDoor");
         }
     }
 }
