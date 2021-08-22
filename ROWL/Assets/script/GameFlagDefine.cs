@@ -8,6 +8,7 @@ public class GameFlagDefine : MonoBehaviour
     public enum GameFlag
     {
         Invalide = 0,
+        ManKeyItemGet,
         KeyItemGet,
         Max
     }
@@ -22,6 +23,7 @@ public class GameFlagDefine : MonoBehaviour
     public void InitGameFlag()//«‘“à‚ğƒNƒŠƒA‚µ‚ÄAfalseó‘Ô‚Ìenum‚ğ‰Á‚¦‚é
     {
         GameFlagDictionary.Clear();
+        GameFlagDictionary.Add(GameFlag.ManKeyItemGet, false);
         GameFlagDictionary.Add(GameFlag.KeyItemGet, false);
     }
     public static void SetGameFlag(GameFlag gameFlag)

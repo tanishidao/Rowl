@@ -21,20 +21,44 @@ MonoBehaviour:
     m_Address: Assets/Sound/BGM/VSQSE_0666_forest.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 8300000, guid: 9c660350f776c10478e92e8ff09f8bf0, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 9c660350f776c10478e92e8ff09f8bf0, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 3bfb46237e1ff3243a30c94baf2ee52a
     m_Address: Assets/Sound/SE/NotOperDoor.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 8300000, guid: 3bfb46237e1ff3243a30c94baf2ee52a, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 3bfb46237e1ff3243a30c94baf2ee52a, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: be34e5c18c7cbb24793986b7ed0b833d
     m_Address: Assets/Sound/SE/OpenDoor.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 8300000, guid: be34e5c18c7cbb24793986b7ed0b833d, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: be34e5c18c7cbb24793986b7ed0b833d, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fa9ae88a910e194449202cdf6df040e5
+    m_Address: Assets/MasterData/CooperationParam.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ed4ed9e7a97b17440900a91e533426ad
+    m_Address: Assets/Scenes/RowlField.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5c1f439f7f7c7f540940705d96607553
+    m_Address: Assets/Scenes/ResultScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: be979ea47b1a5774799c44131de22ad7
+    m_Address: Assets/Scenes/StartScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 676974ae674cc604db118c2f7736578c, type: 2}
   m_SchemaSet:
